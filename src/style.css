@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: biotif;
+    src: url(../Biotif/Demo_Fonts/Fontspring-DEMO-biotif-black.otf);
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url(../Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
