@@ -30,6 +30,7 @@ module.exports = {
           servicesh3: '1.6rem',
           lgfeaturesh4: '2.75rem',
           featuresh4: '1.6rem',
+          footerli: '3rem',
 
         },
         width:{
@@ -42,7 +43,7 @@ module.exports = {
           headerBtn: ' 9.9375rem',
           featuresBtn: ' 9rem',
           servicesh6: '40%',
-          lgservicesh6: '13%',
+          lgservicesh6: '10%',
           servicesh3: '95%',
           lgservicseh3: '55%',
           servicesdiv: '85%',
@@ -53,6 +54,11 @@ module.exports = {
           featuresp: '90%',
           lgfeaturesp: '30.9375rem',
           featuresimg: '95%',
+          lgdownloadimg: '35%',
+          appstore: '40%',
+          lgfooterp: '18.4375rem',
+          footerp: '98%',
+          
 
         },
         height:{
@@ -67,6 +73,7 @@ module.exports = {
           servicesh6: ' #FAFAFA',
           servicesdiv: '#FFFFFF',
           partnersborder: '#e5e4e6',
+          footerbg: '#7B9EE0',
           
         },
         fontFamily: {
@@ -80,10 +87,7 @@ module.exports = {
           'sm': '640px',
           'md':'1024px',
           'lg': '1280px',
-        }
-        
-        
-        
+        },       
       },
 
     },

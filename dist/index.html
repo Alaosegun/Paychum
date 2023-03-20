@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
-<body class="bg-red-500 font-gilroy overflow-x-hidden w-full">
+<body class="bg-background font-gilroy overflow-x-hidden w-full">
+    <nav class="">
+    </nav>
     <header class="   justify-evenly items-center md:flex lg:flex">
-        <nav class="">
-
-        </nav>
+       
         <div class="head-text relative lg:right-10">
-
+            
         <h1 class="text-h1color   text-smh1 lg:text-lgh1 font-biotif font-h1 leading-smh1 lg:leading-h1 capitalize w-smh1 lg:w-lgh1 ml-4 lg:ml-0 ">managing your <span class="text-spanblue">finances</span> can be made easier with <span class="text-spanblue">Pay</span>Chum</h1>
 
         <p class=" mt-4 lg:mt-6 w-smheaderp lg:w-lgheaderP ml-4 lg:ml-0 text-headerP mb-6 font-gilroy">With PayChum, you can manage your finances in the easiest and most efficient way.</p>
 
         <button class=" ml-4 lg:ml-0 lg:mr-5 bg-spanblue rounded p-2 w-headerBtn text-white text-headerBtn">Get started</button>
-        <button class="bg-transparent p-2 rounded w-headerBtn border  border-spanblue text-spanblue text-headerBtn ">Learn more</button>
+        <button class="bg-transparent p-2 rounded w-headerBtn border  border-spanblue text-spanblue text-headerBtn ">Learn more <i class=" bi bi-arrow-up-right text-spanblue"></i></button>
          </div>
-         <img class="w-smheaderImg lg:w-lgheaderImg mt-14 lg:mt-0 relative lg:top-12" src="../images/Hero Image.svg" alt="" >
+         <img class="w-smheaderImg lg:w-lgheaderImg mt-8 lg:mt-0 relative lg:top-12" src="../images/Hero Image.svg" alt="" >
     </header>
 
 
@@ -29,7 +30,7 @@
         <div class=" grid grid-cols-3 p-4 gap-4 lg:grid-cols-6  lg:w-lgpartnersimg lg:ml-auto lg:p-1 lg:mr-auto object-center  ">
           <img src="../images/airbnb-logo 1.svg   " alt="">
            <img class="m-auto" src="../images/uber logo.svg" alt=""> 
-            <img class="m-auto" src="../images/uber logo.svg" alt="">
+            <img class="m-auto" src="../images/Lyft-Logo.png" alt="">
             <img class="m-auto" src="../images/verizon logo.svg" alt="">
             <img class="m-auto" src="../images/loom logo.svg" alt="">
             <img class="m-auto"  src="../images/reuter log.svg" alt="">
@@ -37,7 +38,7 @@
     </section>
 
     <section class="services mt-8 lg:mt-20">
-        <h6 class="text-center mb-4 ml-auto mr-auto block bg-servicesh6 p-4 w-servicesh6 lg:w-lgservicesh6 text-spanblue rounded-3xl">Why choose us</h6>
+        <h6 class="text-center mb-4 ml-auto mr-auto block bg-servicesh6 p-1 w-servicesh6 lg:w-lgservicesh6 text-spanblue rounded-3xl">Why choose us</h6>
         <h3 class="text-servicesh3  lg:text-lgservicesh3 w-servicesh3 lg:w-lgservicseh3 text-center ml-auto mr-auto block leading-servicesh3 lg:leading-lgservicseh3 font-servicseh3"><span class="text-spanblue"> Services</span> We Provide That Can Help You Manage Your Finances Better</h3>
 
         <div class="services-flex  lg:flex justify-center items-center gap-6  mt-8  ">
@@ -64,42 +65,76 @@
     </section>
 
     <section class="features mt-24">
-        <h6 class=" text-center  mb-4 ml-auto mr-auto block bg-servicesh6 p-4 w-servicesh6 lg:w-lgservicesh6 text-spanblue rounded-3xl">Our Features</h6>
+        <h6 class=" text-center  mb-4 ml-auto mr-auto block bg-servicesh6 p-1 w-servicesh6 lg:w-lgservicesh6 text-spanblue rounded-3xl">Our Features</h6>
         <h3 class=" text-center text-servicesh3  lg:text-lgservicesh3 w-servicesh3 lg:w-lgservicseh3  ml-auto mr-auto block leading-servicesh3 lg:leading-lgservicseh3 font-servicseh3">How <span class="text-spanblue">We Help</span> You To Make Better Financial Decisions</h3>
 
-        <div class="features1 lg:flex items-center justify-center lg:mt-8">
+        <div class="features1 lg:flex items-center justify-center lg:mt-8 gap-8">
             <div class="featurestext">
-                <h4 class=" ml-4 lg:ml-0 mt-4 w-featuresh4 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Keep Track Of Your Spending At A Glance</h4>
-                <p class=" w-featuresp lg:w-lgfeaturesp ml-4 lg:ml-0 text-featuresp mt-1">PayChum enables you to track your spending and see where your money goes by easily reviewing transactions regularly.</p>
+                <h4 class=" ml-4 lg:ml-0 lg:mb-8 mt-5 w-featuresh4 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Keep Track Of Your Spending At A Glance</h4>
+                <p class=" w-featuresp lg:mb-8 lg:w-lgfeaturesp ml-4 lg:ml-0 text-featuresp mt-1">PayChum enables you to track your spending and see where your money goes by easily reviewing transactions regularly.</p>
                 <button class=" ml-4 mr-1 mt-3 lg:ml-0 lg:mr-3 bg-spanblue rounded p-2 w-featuresBtn lg:w-headerBtn text-white text-featuresBtn lg:text-headerBtn">Get Started</button>
-                <button class="bg-transparent p-2 w-featuresBtn lg:w-headerBtn border rounded border-spanblue text-spanblue text-featuresBtn lg:text-headerBtn ">Learn More</button>
+                <button class="bg-transparent p-2 w-featuresBtn lg:w-headerBtn border rounded border-spanblue text-spanblue text-featuresBtn lg:text-headerBtn ">Learn More <i class=" bi bi-arrow-up-right text-spanblue"></i></button>
             </div>
 
-            <img class="lg:w-servicesh6 w-featuresimg ml-3 lg:ml-0 mt-4 lg:mt-0" src="../images/CTA 1 img (1).svg" alt="">
+            <img class="lg:w-servicesh6 w-featuresimg ml-3 lg:ml-0 mt-4 lg:mt-0 mb-8 lg:mb-0" src="../images/CTA 1 img (1).svg" alt="">
         </div>
 
-        <div class="features1 lg:flex items-center justify-center lg:mt-8">
+        <div class="features1 lg:flex lg:flex-row-reverse flex-col-reverse  items-center justify-center lg:mt-8 gap-8">
             
-            <img class="lg:w-servicesh6 w-featuresimg ml-3 lg:ml-0 mt-4 lg:mt-0" src="../images/CTA 1 img (1).svg" alt="">
             <div class="featurestext">
-                <h4 class=" ml-4 lg:ml-0 mt-4 w-featuresh4 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Keep Track Of Your Spending At A Glance</h4>
-                <p class=" w-featuresp lg:w-lgfeaturesp ml-4 lg:ml-0 text-featuresp mt-1">PayChum enables you to track your spending and see where your money goes by easily reviewing transactions regularly.</p>
+                <h4 class=" ml-4 lg:ml-0 mt-4 w-featuresh4 lg:mb-8 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Have Access to Immediate feedback</h4>
+                <p class=" w-featuresp lg:w-lgfeaturesp ml-4 lg:mb-8 lg:ml-0 text-featuresp mt-1">Whenever a customer completes an action, we provide feedback on the status of that action.  We help you understand the status of your finances..</p>
                 <button class=" ml-4 mr-1 mt-3 lg:ml-0 lg:mr-3 bg-spanblue rounded p-2 w-featuresBtn lg:w-headerBtn text-white text-featuresBtn lg:text-headerBtn">Get Started</button>
-                <button class="bg-transparent p-2 w-featuresBtn lg:w-headerBtn border rounded border-spanblue text-spanblue text-featuresBtn lg:text-headerBtn ">Learn More</button>
+                <button class="bg-transparent p-2 w-featuresBtn lg:w-headerBtn border rounded border-spanblue text-spanblue text-featuresBtn lg:text-headerBtn ">Learn More <i class=" bi bi-arrow-up-right text-spanblue"></i></button>
             </div>
+            <img class="lg:w-servicesh6 w-featuresimg ml-3 lg:ml-0 mt-4 lg:mt-0 mb-8 lg:mb-0" src="../images/CTA 2 img.svg" alt="">
         </div>
 
-        <div class="features1 lg:flex items-center justify-center lg:mt-8">
+        <div class="features1 lg:flex items-center justify-center lg:mt-8 gap-8">
             <div class="featurestext">
-                <h4 class=" ml-4 lg:ml-0 mt-4 w-featuresh4 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Keep Track Of Your Spending At A Glance</h4>
-                <p class=" w-featuresp lg:w-lgfeaturesp ml-4 lg:ml-0 text-featuresp mt-1">PayChum enables you to track your spending and see where your money goes by easily reviewing transactions regularly.</p>
-                <button class=" ml-4 mr-1 mt-3 lg:ml-0 lg:mr-3 bg-spanblue rounded p-2 w-featuresBtn lg:w-headerBtn text-white text-featuresBtn lg:text-headerBtn">Get Started</button>
-                <button class="bg-transparent p-2 w-featuresBtn lg:w-headerBtn border rounded border-spanblue text-spanblue text-featuresBtn lg:text-headerBtn ">Learn More</button>
+                <h4 class=" ml-4 lg:mb-8 lg:ml-0 mt-4 w-featuresh4 lg:w-lgfeaturesh4 font-servicesdivh3 text-featuresh4 lg:text-lgfeaturesh4 leading-featuresh4 lg:leading-lgfeaturesh4">Download the
+                    PayChum Mobile <span class="text-spanblue">App</span></h4>
+                <p class=" w-featuresp  lg:mb-8 lg:w-lgfeaturesp ml-4 lg:ml-0 text-featuresp mt-1">The PayChum app is available on iOS and  Android. Download it today to start your journey towards financial freedom!</p>
+                <div class="flex gap-4 lg:gap-6 mt-4">
+                    <img class="ml-4 lg:ml-0 w-appstore " src="../images/App Store Download Button.svg" alt="">
+                    <img class="w-appstore" src="../images/Google Play Download Button.svg" alt="">
+                </div>
+                
             </div>
 
-            <img class="lg:w-servicesh6 w-featuresimg ml-3 lg:ml-0 mt-4 lg:mt-0" src="../images/CTA 1 img (1).svg" alt="">
+            <img class="lg:w-lgdownloadimg w-featuresimg  mt-4 lg:mt-4" src="../images/PayChum App Mockup 2.png" alt="">
         </div>
     </section>
  
+     <footer class=" py-14 lg:py-12 lg:p-28 bg-footerbg text-white list-none">
+        <div class="footer ml-4 lg:ml-0 lg:flex justify-evenly">
+            <div>
+                <img src="../images/Logo.png" alt="">
+                
+                <p class="lg:w-lgfooterp w-footerp text-featuresp mt-2  lg:mt-8 lg:text-base">PayChum is a revolutionary financial service provider that enables users to manage their finances in the easiest and most efficient way</p>
+            </div>
+
+            <div>
+                <h3 class="font-biotif mt-4 lg:mt-0 text-xl">About Us</h3>
+                <li class="lg:leading-footerli leading-9">FAQs</li>
+                <li class="lg:leading-footerli leading-9">Blog</li>
+                <li class="lg:leading-footerli leading-9">Careers</li>
+            </div>
+            <div>
+                <h3 class="font-biotif mt-4 lg:mt-0 text-xl">Legal</h3>
+                <li class="lg:leading-footerli leading-9">Privacy Policy</li>
+                <li class="lg:leading-footerli leading-9">Terms of Service</li>
+                <li class="lg:leading-footerli leading-9">Paychum Agreement</li>
+            </div>
+            <div>
+                <h3 class="font-biotif mt-4 lg:mt-0 text-xl">Contact Us</h3>
+                <li class="lg:leading-footerli leading-9">--</li>
+                <li class="lg:leading-footerli leading-9">Hello@paychum.com</li>
+                <li class="lg:leading-footerli leading-9">8502 Preston Rd. Inglewood, Maine 98380</li>
+            </div>
+
+           
+        </div>
+     </footer>
 </body>
 </html>
