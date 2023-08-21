@@ -7,7 +7,7 @@ module.exports = {
           smh1: '1.8rem',
           lgh1: '3.25rem',
           headerP: '1.25rem',  
-          headerBtn: '1.1rem',
+          headerBtn: '1.05rem',
           featuresBtn: '0.8rem',
           lgservicesh3: '2.625rem',
           servicesh3: '1.6rem',
@@ -16,6 +16,7 @@ module.exports = {
           lgfeaturesh4: ' 2.1875rem',
           featuresh4: '1.4rem',
           featuresp: '1.1rem',
+          footerh3: '1.3rem',
 
         },
         fontWeight: {
@@ -40,8 +41,9 @@ module.exports = {
           smheaderp: '86%',
           smheaderImg: '96%',
           lgheaderImg: '30%',
-          headerBtn: ' 9.9375rem',
-          featuresBtn: ' 9rem',
+          headerBtn: '41%',
+          lgheaderBtn: '9.9375rem',
+          featuresBtn: '9rem',
           servicesh6: '40%',
           lgservicesh6: '10%',
           servicesh3: '95%',
@@ -58,8 +60,6 @@ module.exports = {
           appstore: '40%',
           lgfooterp: '18.4375rem',
           footerp: '98%',
-          
-
         },
         height:{
           servicesdiv: '23.875rem',
@@ -73,15 +73,14 @@ module.exports = {
           servicesh6: ' #FAFAFA',
           servicesdiv: '#FFFFFF',
           partnersborder: '#e5e4e6',
-          footerbg: '#7B9EE0',
-          
+          footerbg: '#7B9EE0',   
         },
         fontFamily: {
           'biotif': ['biotif'],
           'gilroy': ['gilroy'],
         },
         padding: {
-          servicesdiv: ' 1.1875rem',
+          servicesdiv: '1.1875rem',
         },
         screens:{
           'sm': '640px',
@@ -89,7 +88,10 @@ module.exports = {
           'lg': '1280px',
         },       
       },
-
     },
     plugins: [],
   }
+
+
+
+  // https://wondrous-starship-5fc130.netlify.app/

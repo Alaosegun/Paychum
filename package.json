@@ -1,16 +1,24 @@
 {
   "name": "tailwind3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
-    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.2.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alaosegun/Paychum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alaosegun/Paychum/issues"
+  },
+  "homepage": "https://github.com/Alaosegun/Paychum#readme",
+  "description": ""
 }
